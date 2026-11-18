@@ -15,7 +15,7 @@ val buildNativeAndroid by tasks.registering(org.gradle.api.tasks.Exec::class) {
     val goSources = files(
         rootProject.fileTree(nativeDir) { include("**/*.go", "go.mod", "go.sum") },
     )
-    val output = project.file("src/main/jniLibs/arm64-v8a/libtgwsproxy.so")
+    val output = project.file("src/main/jniLibs/armeabi-v7a/libtgwsproxy.so")
 
     inputs.file(script)
     inputs.files(goSources)
@@ -64,7 +64,7 @@ android {
         }
 
         ndk {
-            abiFilters.add("arm64-v8a")
+            abiFilters.add("armeabi-v7a")
         }
     }
 
