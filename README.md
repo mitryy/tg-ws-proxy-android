@@ -1,4 +1,4 @@
-# TgWsProxy SNI для Android
+# TgWsProxy SNI для Android v7a build
 
 [![Build and test](https://github.com/malordin/tg-ws-proxy-android/actions/workflows/trusted-ci.yml/badge.svg)](https://github.com/malordin/tg-ws-proxy-android/actions/workflows/trusted-ci.yml)
 
